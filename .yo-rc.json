@@ -1,0 +1,37 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "gds.health"
+    },
+    "jhipsterVersion": "6.1.2",
+    "applicationType": "monolith",
+    "baseName": "react_jhipster_learn",
+    "packageName": "gds.health",
+    "packageFolder": "gds/health",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": "elasticsearch",
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "OTRjMDljYzRhODMxNzU1NzRhYTg3MzE2YThkMjc3NzQwMTFkOGE2ZDA1YzJmZTdmZWM4NDMwNTE2NjE1ZTI0ZmVkMWMxNTY1NDBjYjM2YTFiOTNmNWM5ZGZkZjYyNmE2MzQwMzg4MzM5M2Q0MmMwMDU4NDVhY2M4ZGEzNTUzOTg=",
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "clientFramework": "react",
+    "clientTheme": "none",
+    "clientThemeVariant": "",
+    "testFrameworks": ["protractor"],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": false
+  }
+}
