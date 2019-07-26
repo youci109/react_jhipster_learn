@@ -1,0 +1,11 @@
+version: '2'
+services:
+  react_jhipster_learn-postgresql:
+    image: postgres:11.3
+    # volumes:
+    #     - ~/volumes/jhipster/react_jhipster_learn/postgresql/:/var/lib/postgresql/data/
+    environment:
+      - POSTGRES_USER=react_jhipster_learn
+      - POSTGRES_PASSWORD=
+    ports:
+      - 5432:5432

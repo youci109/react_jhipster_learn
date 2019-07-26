@@ -1,0 +1,17 @@
+
+entity BloodPressure {
+	timestamp ZonedDateTime required
+    systolic Integer required
+    diastolic Integer required
+}
+
+
+relationship ManyToOne {
+    BloodPressure { user(login) required } to User
+}
+
+dto * with mapstruct
+service * with serviceClass
+paginate BloodPressure with infinite-scroll
+
+
